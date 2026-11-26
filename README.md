@@ -43,7 +43,7 @@ To create a 3D solid model from the given isometric drawing using Autodesk Fusio
    Select Sketch > Create Sketch.
 
 ## STEP-5: Select the Sketch Plane
-	Select the TOP SURFACE of the 3D block 
+Select the TOP SURFACE of the 3D block 
   
 ## STEP-6: Create a RECTANGLE 
 1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
