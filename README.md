@@ -15,105 +15,96 @@ To create a 3D solid model from the given isometric drawing using Autodesk Fusio
 
 ## PROCEDURE:
 
-**STEP 1: Open Autodesk Fusion 360**
+## STEP-1:  Select the Sketch Plane
+ Select the TOP (XY) Plane
 
-1. Open Autodesk Fusion 360.
-2. Create a new design and save the project.
+## STEP-2: Create a Sketch 
+1.  Select Sketch > Rectangle > Center Rectangle.
+2.  Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+3.  Click once to begin placing the rectangle.
+4.  Type the Tab button and enter the values 56 mm and 18mm for the width and height respectively.
+5.  Select Sketch > Arc > Center point arc.
+6.  Click again to place the value (Both end of the sketch). You should see the cursor snap to this location
+7.  Type the Tab button and enter the values R 18mm
+8.  Select Sketch > circle > Center point circle.
+9.  Click again to place the value (Both side of the sketch). You should see the cursor snap to this location
+10. Type the Tab button and enter the values dia 16mm
+11. Click again to place the sketch.
+12. Click Finish Sketch after completing.
 
-**STEP 2: Select the Sketch Plane**
+## STEP-3: Extrude Sketch in XY Plane
+1.	Select Extrude.
+2.	Select the sketch.
+3.	Click again to place the value.
+4.	Type in the value of 8mm. 
+5.	Press ENTER to accept the value.
 
-1. Select Create Sketch.
-2. Choose the TOP (XY) plane.
+## STEP-4:  Start the sketch command
+   Select Sketch > Create Sketch.
 
-**STEP 3: Create the Base Sketch**
+## STEP-5: Select the Sketch Plane
+	Select the TOP SURFACE of the 3D block 
+  
+## STEP-6: Create a RECTANGLE 
+1.	Select Sketch > RECTANGLE  > CENTER RECTANGLE.
+2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+3.	Click once to begin placing the RECTANGLE.
+4.	Type the Tab button and enter the values 40mm and 10mm for the width and height respectively
+5.	Click again to place the RECTANGLE.
+6.	Click Finish Sketch after completing.
 
-1. Select Sketch → Rectangle → Center Rectangle.
-2. Place the rectangle at the origin.
-3. Set the width to 56 mm and height to 18 mm.
-4. Select Sketch → Arc → Center Point Arc.
-5. Create the arc with a radius of 18 mm.
-6. Select Sketch → Circle → Center Point Circle.
-7. Create a circle with a diameter of 16 mm.
-8. Click Finish Sketch.
+## STEP-7:  Extrude RECTANGLE 
+1.	Select Extrude.
+2.	Select the Rectangle sketch.
+3.	Click again to place the value.
+4.	Type in the value of 32mm. 
+5.	Press ENTER to accept the value.
 
-**STEP 4: Extrude the Base Sketch**
+## STEP-8: Create a TRIANGLE 
+1.	Select Sketch > TRIANGLE > CENTER TRIANGLE .
+2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+3.	Click once to begin placing the TRIANGLE.
+4.	Type the Tab button and enter the values 32mm and 12mm for the width and height respectively
+5.	Click again to place the TRIANGLE.
+6.	Click Finish Sketch after completing.
 
-1. Select the Extrude command.
-2. Select the completed base sketch.
-3. Enter an extrusion distance of 8 mm.
-4. Press Enter to create the base solid.
+## STEP-9:  Extrude TRIANGLE
+1.	Select Extrude.
+2.	Select the TRIANGLE sketch.
+3.	Click again to place the value.
+4.	Type in the value of 6mm in both direction option. 
+5.	Press ENTER to accept the value.
 
-**STEP 5: Create a New Sketch on the Top Surface**
+## STEP-10: Create a PENTAGON 
+1.	Select Sketch > polygon > circumscribed polygon.
+2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
+3.	Click once to begin placing the polygon.
+4.	Type the Tab button and enter the values 40mm and 30mm, for the width and height respectively and Choose 3 Side
+5.	Click again to place the polygon.
+6.	Click Finish Sketch after completing.
 
-1. Select Create Sketch.
-2. Choose the top surface of the base solid.
+## STEP-11: Extrude PENTAGON
+1.	Select Extrude.
+2.	Select the PENTAGON sketch.
+3.	Click again to place the value.
+4.	Type in the value of 10mm. 
+5.	Press ENTER to accept the value.
 
-**STEP 6: Draw the Rectangle**
+## STEP-12: Create a CIRCLE 
+1.	Select Sketch > CIRCLE > CENTER CIRCLE.
+2.	Now hover over the origin (Pentagan end side) of the sketch. You should see the cursor snap to this location.
+3.	Click once to begin placing the CIRCLE.
+4.	Type the Tab button and enter the value DIA 30mm and 20mm, inner and outer diameter respectively .
+5.	Click again to place the circle.
+6.	Click Finish Sketch after completing.
 
-1. Select Sketch → Rectangle → Center Rectangle.
-2. Place the rectangle at the required position.
-3. Set the width to 40 mm and height to 10 mm.
-4. Click Finish Sketch.
+## STEP-13:  Extrude CIRCLE 
+1.	Select Extrude.
+2.	Select the pentogan sketch.
+3.	Click again to place the value.
+4.	Type in the value of 10mm on both side. 
+5.	Press ENTER to accept the value.
 
-**STEP 7: Extrude the Rectangle**
-
-1. Select the Extrude command.
-2. Select the rectangular profile.
-3. Enter an extrusion distance of 32 mm.
-4. Press Enter to complete the extrusion.
-
-**STEP 8: Create the Triangle Sketch**
-
-1. Select Create Sketch on the required face.
-2. Choose Sketch → Triangle → Center Triangle.
-3. Draw the triangular profile.
-4. Set the width to 32 mm and height to 12 mm.
-5. Click Finish Sketch.
-
-**STEP 9: Extrude the Triangle**
-
-1. Select the triangular profile.
-2. Choose the Extrude command.
-3. Set the extrusion distance to 6 mm in both directions.
-4. Press Enter to complete the operation.
-
-**STEP 10: Create the Polygon Sketch**
-
-1. Select Create Sketch on the required face.
-2. Choose Sketch → Polygon → Circumscribed Polygon.
-3. Position the polygon at the required location.
-4. Enter the specified dimensions of 40 mm and 30 mm.
-5. Set the number of sides to 3, as specified in the original modelling steps.
-6. Click Finish Sketch.
-
-**STEP 11: Extrude the Polygon**
-
-1. Select the polygon profile.
-2. Choose the Extrude command.
-3. Enter an extrusion distance of 10 mm.
-4. Press Enter to complete the operation.
-
-**STEP 12: Create the Circular Sketch**
-
-1. Select Create Sketch on the required face.
-2. Choose Sketch → Circle → Center Point Circle.
-3. Position the circle at the specified location.
-4. Create the inner and outer circular profiles using the diameters of 30 mm and 20 mm, respectively, as recorded in the original dimensions.
-5. Click Finish Sketch.
-
-**STEP 13: Extrude the Circular Profile**
-
-1. Select the required circular profile.
-2. Choose the Extrude command.
-3. Set the extrusion distance to 10 mm on both sides.
-4. Press Enter to complete the operation.
-
-**STEP 14: Complete the 3D Model**
-
-1. Check all the created features and their alignment.
-2. Compare the completed model with the given isometric drawing.
-3. Adjust the viewing orientation to an isometric view.
-4. Save the completed 3D solid model.
 
 
 ## INPUT
