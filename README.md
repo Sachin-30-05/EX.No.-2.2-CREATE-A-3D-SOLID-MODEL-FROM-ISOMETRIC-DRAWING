@@ -115,7 +115,6 @@ To create a 3D solid model from the given isometric drawing using Autodesk Fusio
 
 <img width="1015" height="716" alt="Fusion 360 model output – screenshot 1" src="https://github.com/user-attachments/assets/f7a9a099-1e60-4dfa-8a75-d7bef29b9ea0" />
 
-<img width="1915" height="1021" alt="Fusion 360 model output – screenshot 2" src="https://github.com/user-attachments/assets/cbf4d009-3cc9-43a5-a76f-7f926958b4c4" />
 
 ## RESULT
 
